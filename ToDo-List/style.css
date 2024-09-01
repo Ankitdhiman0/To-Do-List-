@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 12vh;
+    height: auto;
+    width: 35vw;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    border-radius: 10px;
+}
+
+.container h1{
+    margin: 10px 0 10px 0;
+}
+.todolist{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    width: 80%;
+    height: 5vh;
+    border-radius: 10px;
+}
+.todolist input{
+    all: unset;
+    width: 70%;
+    padding: 10px;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.todolist button{
+    border: none;
+    width: 30%;
+    background-color: orange;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul{
+    width: 85%;
+    list-style-type: circle;
+}
+
+#task-list li{
+    width: 100%;
+    padding: 12px ;
+    font-size: 1vw;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button{
+width: 20%;
+background-color: rgb(213, 110, 72);
+border: none;
+border-radius: 10px;
+height: 4vh;
+font-size: 0.8vw;
+font-weight: bold;
+cursor: pointer;
+}
